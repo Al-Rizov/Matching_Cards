@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto", sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.blocks  {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 1px;
+    padding: 10%;
+    
+}
+
+.single_block {
+    margin: 1em;
+    padding: 2em;
+    background-color: aquamarine;
+}
+
+
+/*------------------ Pair Symbols ------------------ */
+
+.pair_symbol_one {
+    background-color: rgb(234, 45, 45);
+}
+
+.pair_symbol_two {
+    background-color: coral;
+}
+
+.pair_symbol_three {
+    background-color: blue;
+}
+
+.pair_symbol_four {
+    background-color: magenta;
+}
+
+.pair_symbol_five {
+    background-color: green;
+}
+
+.pair_symbol_six {
+    background-color: tomato;
+}
+
+.pair_symbol_seven {
+    background-color: teal;
+}
+
+.pair_symbol_eight {
+    background-color: orangered;
+}
+
+.pair_symbol_nine {
+    background-color: mediumturquoise;
+}
+
+.pair_symbol_ten {
+    background-color: lemonchiffon;
+}
+
+.pair_symbol_eleven {
+    background-color: rgb(205, 21, 95);
+}
+
+.pair_symbol_twelve {
+    background-color: darkkhaki;
+}
+
+.pair_symbol_thirteen {
+    background-color: sandybrown;
+}
+
+.pair_symbol_fourteen {
+    background-color: midnightblue;
+}
+
+.pair_symbol_fifteen {
+    background-color: gold;
+}
+
+.pair_symbol_sixteen {
+    background-color: orange;
+}
+
+.pair_symbol_seventeen {
+    background-color: palevioletred;
+}
+
+.pair_symbol_eighteen {
+    background-color: burlywood;
+}
+
+.pair_symbol_nineteen {
+    background-color: greenyellow;
+}
+
+.pair_symbol_twenty {
+    background-color: hotpink;
+}
+
