@@ -23,12 +23,35 @@ body {
     
 }
 
+.curtain {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.button {
+    margin-top: 50px;
+}
+
 .single_block {
+    position: relative;
+    z-index: 2;
     margin: 1em;
     padding: 2em;
     background-color: aquamarine;
 }
 
+
+/*------------ Open/Close/Match Classes ------------ */
+
+.single_block.match_made {
+    position: relative;
+    z-index: 0;
+    margin: 1em;
+    padding: 2em;
+}
 
 /*------------------ Pair Symbols ------------------ */
 

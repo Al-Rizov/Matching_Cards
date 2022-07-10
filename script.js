@@ -4,6 +4,7 @@ const symbol_classes = ['pair_symbol_one', 'pair_symbol_two', 'pair_symbol_three
                         'pair_symbol_eleven', 'pair_symbol_twelve', 'pair_symbol_thirteen', 'pair_symbol_fourteen', 
                         'pair_symbol_fifteen', 'pair_symbol_sixteen', 'pair_symbol_seventeen', 'pair_symbol_eighteen', 
                         'pair_symbol_nineteen', 'pair_symbol_twenty' ];
+const test = document.getElementById('test');
 
 // Removes any previously assigned 'symbol'-classes and assigns a new one.
 function changeColor(el, color) {
@@ -95,6 +96,9 @@ function assignClasses(pair) {
 function push() {
     
     assignClasses(assignPairs(card));
+    //test.classList.toggle('single_block');
+    test.classList.toggle('match_made');
+    console.log(test.classList);
 }
 
 
